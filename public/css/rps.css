@@ -1,0 +1,65 @@
+#game_board{
+    border: #fff 2px solid;
+}
+
+#message_board {
+    background: #000;
+    border: #fff 2px solid;
+}
+
+.scoreboard {
+    background: #000;
+    border: #fff 2px solid;
+}
+
+.devider {
+    border-right: #fff 2px solid;
+}
+
+#player_score, #computer_score, #draw_score, #message {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.score {
+    margin-top: 12px;
+}
+
+.selection {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.scissors{
+    width: 104%;
+}
+
+.reset {
+    width: 200px;
+    margin: 30px auto;
+}
+
+.reset button{
+    width: 100%;
+    padding: 6px 0;
+    font-size: 26px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.reset button:hover{
+    background: white;
+    color: black;
+}
+
+.selection_title{
+    text-align: center;
+    font-size: 36px;
+}
+
+#messageContaoner{
+    margin-top: 12px;
+}

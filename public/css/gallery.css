@@ -1,0 +1,142 @@
+.img_div:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.size_btn {
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    float: right;
+    margin: 0 0 0 10px;
+    width: 29%;
+}
+
+#mainImage {
+    width: 100%;
+    height: 100%;
+}
+
+#playBTN:hover, #stopBTN:hover, .size_btn:hover, .gActive {
+    background: white;
+    color: #003050;
+    cursor: pointer;
+}
+
+#playBTN, #stopBTN {
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#playBTN span, #stopBTN span {
+    margin: 0 3px 0 0
+}
+
+#controls {
+    height: 101%;
+    position: absolute;
+    width: 97.5%;
+}
+
+#prev, #next {
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 99%;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+#prev span, #next span {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 72px;
+    position: relative;
+    top: 50%;
+    margin-top: -36px
+}
+
+#slide_show {
+    display: none;
+}
+
+#fs, #cs {
+    color: #aaa;
+    display: none;
+    font-size: 32px;
+}
+
+#fs span, #cs span {
+    float: right;
+}
+
+#fs span:hover, #cs span:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#slide_show_caption {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#galleryContainer {
+    margin-top: 30px;
+}
+
+/*************************************************************************************************************/
+
+/*                                        Responsive css  @media                                             */
+
+/*************************************************************************************************************/
+
+@media screen and (max-width: 1199px) {
+    .size_btn {
+        display: none;
+    }
+    #controls {
+        width: 96.9%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #controls {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #controls {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #prev span, #next span {
+        font-size: 42px;
+        position: relative;
+    }
+    #controls {
+        width: 92%;
+    }
+}

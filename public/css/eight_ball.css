@@ -1,0 +1,87 @@
+.answer_contaner {
+    width: 0;
+    height: 0;
+    border-top: 121px solid #08034e;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    position: relative;
+    top: 29%;
+    left: 10%;
+}
+
+#answer {
+    position: absolute;
+    width: 69px;
+    bottom: 47px;
+    right: -34px;
+    text-align: center;
+    color: #ffffffc7;
+}
+
+#eight_ball {
+    width: 400px;
+    height: 400px;
+    background: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 8px #6c757d;
+}
+
+#liquid {
+    width: 200px;
+    height: 200px;
+    background: #01081b;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    box-shadow: inset 0 0 8px #000000;
+    display: none;
+}
+
+#eight {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+#number {
+    position: absolute;
+    color: black;
+    font-size: 124px;
+    top: 0%;
+    left: 34%;
+}
+
+.ask {
+    width: 200px;
+    margin: 30px auto;
+}
+
+.ask button{
+    width: 100%;
+    padding: 6px 0;
+    font-size: 26px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.ask button:hover{
+    background: white;
+    color: black;
+}
+
+
+.instructions {
+    text-align: center;
+    width: 31%;
+    margin: 39px auto;
+    font-size: 16px;
+}

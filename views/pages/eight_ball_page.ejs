@@ -1,0 +1,31 @@
+<div class="row">
+        <h1 class="pageTitle"><%= pageTitle %></h1>
+        <div class="col-12">
+            <p class="instructions">
+                Just like a real Magic 8 Ball, just think a say out loud a yes/no qestion then click 'Reveal Answer' and
+                it's answer will apper on the screen.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="eight_ball">
+                <div id="eight">
+                    <p id="number">8</p>
+                </div>
+                <div id="liquid">
+                    <div class="answer_contaner">
+                        <div id="answer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="ask">
+                <button onclick="eightBall()">Reveal Answer</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/magic_eight_ball.js"></script>

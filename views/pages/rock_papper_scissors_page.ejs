@@ -1,0 +1,58 @@
+<div class="container">
+    <h1 class="pageTitle"><%= pageTitle %></h1>
+    <p class="instructions">
+        Play a game of Rock Paper Scissors against the computer. Simply select “Rock”, “Paper” or “Scissors” and see
+        what the computer chooses. Play as many times as you like. And just hit restart if you any time you want to
+        clear the scoreboard.
+    </p>
+    <div class="row scoreboard">
+        <div class="col-4 devider">
+            <div class="score">
+                Player: <p id="player_score"></p>
+            </div>
+        </div>
+        <div class="col-4 devider">
+            <div class="score">
+                Draw: <p id="draw_score"></p>
+            </div>
+        </div>
+        <div class="col-4 devider">
+            <div class="score">
+                Computer: <p id="computer_score"></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="message_board" class="col-12">
+            <div id="messageContaoner">Message:
+                <p id="message"></p>
+            </div>
+        </div>
+    </div>
+    <div id="game_board" class="row">
+        <div class="col-4 devider">
+            <p class="selection_title">Rock</p>
+            <a onclick="paperRockScissors(0)" href="#"><img class="rock selection" src="./img/Rock.png" title="Rock"
+                    alt="Rock" /></a>
+        </div>
+        <div class="col-4 devider">
+            <p class="selection_title">Paper</p>
+            <a onclick="paperRockScissors(1)" href="#"><img class="paper selection" src="./img/Paper.png" title="Paper"
+                    alt="Paper" /></a>
+        </div>
+        <div class="col-4">
+            <p class="selection_title">Scissors</p>
+            <a onclick="paperRockScissors(2)" href="#"> <img class="scissors selection" src="./img/Scissors.png"
+                    title="Scissors" alt="Scissors" /></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="reset">
+                <button onclick="reset()" type="button" class="btn btn-light">Reset Game</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/rock_paper_scissors.js"></script>

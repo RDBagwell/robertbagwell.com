@@ -1,0 +1,19 @@
+{
+  "name": "robertbagwell.com",
+  "version": "1.0.0",
+  "description": "Robert Bagwell's Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Robert Bagwell",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

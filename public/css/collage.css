@@ -1,0 +1,68 @@
+.innerContainer{
+    /* background: black; */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.image{
+    width: 100%;
+    margin: auto;
+}
+.leftHalf{
+padding-right: 6px;
+}
+
+
+.leftHalf, .rightHalf{
+    width: 50%;
+    float: left;
+}
+
+.leftThird{
+    float: left;
+    overflow: hidden;
+    width: 60%;
+}
+.rightThird{
+    float: right;
+    height: 50%;
+    overflow: hidden;
+    padding-left: 6px;
+    width: 40%; 
+}
+.rightThirdBottom{
+    padding-top:6px;
+}
+
+.leftFourth{
+    float: left;
+    overflow: hidden;
+    width: 67%;
+}
+
+.rightFourth{
+    float: right;
+    height: 34%;
+    overflow: hidden;
+    padding-left: 6px;
+    position: relative;
+    width: 33%;
+}
+
+.rightFourthMid, .rightFourthBottom{
+    padding-top:6px;
+}
+
+.overlay {
+    color: white;
+    font-size:5vw;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.overlay p{
+    margin: 0;
+    padding: 0;
+}
