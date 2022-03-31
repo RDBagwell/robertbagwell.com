@@ -9,9 +9,9 @@ let GraphData = [
     { title: "PHP", score: 100 },
     { title: "JavaScript", score: 99 },
     { title: "Jquery", score: 95 },
-    { title: "NodeJS", score: 85 },
-    { title: "SQL/MySQL", score: 75 },
-    { title: "React", score: 50 },
+    { title: "NodeJS", score: 90 },
+    { title: "SQL/MySQL", score: 80 },
+    { title: "React", score: 65 },
     { title: "C#", score: 13 },
     { title: ".NET", score: 10 },
     { title: "Python", score: 10 }
